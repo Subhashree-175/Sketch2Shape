@@ -1,0 +1,5 @@
+No onnxruntime backend found.
+Please install rembg with CPU or GPINFO:     127.0.0.1:49368 - "GET /api/health HTTP/1.1" 200 OK
+install "rembg[gpu]"  # for NVIDIA/CUDA GPU
+
+For more information, see: https://github.com/danielgatis/rembg#installation

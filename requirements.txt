@@ -1,0 +1,26 @@
+# ============================================================
+# Sketch2Shape AI — Core (UI + image prep + mesh export)
+# Install these locally: pip install -r requirements.txt
+# ============================================================
+streamlit>=1.35.0
+opencv-python-headless>=4.10.0
+rembg>=2.0.50
+trimesh[easy]>=4.4.0
+numpy>=1.26.0
+Pillow>=10.3.0
+requests>=2.31.0
+python-multipart>=0.0.6
+
+# Colab-side model server (run this file INSIDE Google Colab)
+fastapi>=0.110.0
+uvicorn>=0.29.0
+pyngrok>=6.0.0
+
+# ============================================================
+# Optional — LOCAL GPU path (NOT required for Colab demo).
+# Uncomment only if you run the full pipeline on a local GPU:
+# torch>=2.3.0
+# diffusers>=0.31.0
+# transformers>=4.44.0
+# accelerate>=0.30.0
+# ============================================================
